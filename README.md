@@ -11,10 +11,17 @@ A idéia do projeto é desenvolver um mini app financeiro.
 
 ## Referências
 
-<a style="text-decoration: none;" href="https://maratonadiscover.rocketseat.com.br/inscricao"><img src="https://maratonadiscover.rocketseat.com.br/_next/image?url=%2Fimages%2FillustrationOpportunities.png&w=1920&q=75" width="200px" align="right"/></a>
+<img src="https://maratonadiscover.rocketseat.com.br/_next/image?url=%2Fimages%2FillustrationOpportunities.png&w=1920&q=75" width="200px" align="right"/>
 
 <p align="justify">
 <a style="text-decoration: none;" href="https://maratonadiscover.rocketseat.com.br/inscricao">Maratona Discover</a>
+
+Primeira Edição: <b>Front-end do zero</b>
+
+Aprenda programação na
+prática. <b>E de graça.</b>
+
+Domine desenvolvimento web desde os fundamentos e construa uma base sólida para decolar como programadora ou programador. 🚀 100% online.
 
 Você está diante de uma oportunidade gigante
 Software é a alma da tecnologia. É através das linhas de código que as máquinas ganham vida. E por isso nós, programadores e programadoras, somos protagonistas do impacto que a tecnologia causa no mundo.
