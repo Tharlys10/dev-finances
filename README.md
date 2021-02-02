@@ -18,6 +18,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O dev.finances é uma aplicação de controle financeiro, onde é possível cadastrar e excluir transações e ver o saldo de entrada e saída 💰
 
+<p align="center">
+  <img alt="dev.finances" src=".github/devfinances.png" width="100%">
+</p>
+
 ---
 
 ## Referências
