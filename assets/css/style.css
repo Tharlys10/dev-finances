@@ -9,9 +9,25 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 93.75%; /* 15px // 100% -> 16px */
+}
+
 body {
   background-color: #F0F2F5;
   font-family: 'Poppins', sans-serif;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0px;
 }
 
 .container {
@@ -26,6 +42,23 @@ h2 {
   color: var(--dark-blue);
 
   font-weight: normal;
+}
+
+/* === === Links and button === === */
+a {
+  color: #49AA26;
+  text-decoration: none;
+
+  transition: 1s;
+}
+
+a.button.new {
+  display: inline-block;
+  margin-bottom: .8rem;
+}
+
+a:hover {
+  color: #3DD705;
 }
 
 /* === === Header === === */
@@ -64,6 +97,10 @@ main section#balance div.card {
 main section#balance div.card h3 {
   font-weight: normal;
   font-size: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 main section#balance div.card p {
@@ -79,10 +116,14 @@ main section#balance div.card.total {
 
 /* === === Table === === */
 main section#transaction table#data-table {
+  display: block;
+
   width: 100%;
   border-spacing: 0rem 0.5rem;
   color:#969CB3; 
   cursor: default;
+
+  overflow-x: auto;
 }
 
 main section#transaction table#data-table th {
@@ -138,4 +179,17 @@ footer {
 
   color: var(--dark-blue);
   opacity: 0.6;
+}
+
+/* === === Responsive === === */
+@media (min-width: 800px) {
+  html {
+    font-size: 87.5%; /* 14px */
+  }
+
+  section#balance {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 1fr 1fr 1fr */
+    gap: 2rem;
+  }
 }

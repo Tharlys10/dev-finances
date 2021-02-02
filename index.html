@@ -3,66 +3,82 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A idéia do projeto é desenvolver um mini app financeiro">
   <title>Dev Finanças | Maratona Discover - Rocketseat</title>
-
+  <!-- Favicon -->
   <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
-
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
-
+  <!-- Style -->
   <link rel="stylesheet" href="./assets/css/style.css">
-  
 </head>
 <body>
   <header>
-    <h1 id="logo">Dev Finanças</h1>
+    <!-- <h1 id="logo">Dev Finanças</h1> -->
+    <img src="./assets/img/logo.svg" alt="Logo Dev Finance">
   </header>
 
   <main class="container">
     <section id="balance">
-      <h2>Balanços</h2>
+      <h2 class="sr-only">Balanços</h2>
 
       <div class="card">
-        <h3>Entradas</h3>
+        <h3>
+          <span>Entradas</span>
+          <img src="./assets/img/income.svg" alt="Img De Entradas">
+        </h3>
         <p>R$ 5.000,00</p>
       </div>
 
       <div class="card">
-        <h3>Saídas</h3>
+        <h3>
+          <span>Saídas</span>
+          <img src="./assets/img/expense.svg" alt="Img De Saídas">
+        </h3>
+
         <p>R$ -2.000,00</p>
       </div>
 
       <div class="card total">
-        <h3>Total</h3>
+        <h3>
+          <span>Total</span>
+          <img src="./assets/img/total.svg" alt="Img De Total">
+        </h3>
         <p>R$ 3.000,00</p>
       </div>
     </section>
 
     <section id="transaction">
-      <h2>Transações</h2>
+      <h2 class="sr-only">Transações</h2>
+
+      <a href="#" class="button new">+ Nova transação</a>
 
       <table id="data-table">
         <thead>
           <th>Descrição</th>
           <th>Valor</th>
           <th>Data</th>
+          <th></th>
         </thead>
         <tbody>
           <tr>
             <td class="description">Luz</td>
             <td class="expense">R$ -499,00</td>
             <td class="date">18/01/2021</td>
+            <td><img src="./assets/img/minus.svg" alt="Remover Transação"></td>
           </tr>
           <tr>
             <td class="description">Web page</td>
             <td class="income">R$ 4990,00</td>
             <td class="date">18/01/2021</td>
+            <td><img src="./assets/img/minus.svg" alt="Remover Transação"></td>
           </tr>
           <tr>
             <td class="description">Internet</td>
             <td class="expense">R$ -200,00</td>
             <td class="date">18/01/2021</td>
+            <td><img src="./assets/img/minus.svg" alt="Remover Transação"></td>
           </tr>
         </tbody>
       </table>
