@@ -1,4 +1,6 @@
-# Dev-finance$
+<h1 align="center">
+  <img alt="dev.finances" title="dev.finances" src=".github/logo.svg" width="220px" />
+</h1>
 Maratona Discover -
 <a style="text-decoration: none;" href="https://rocketseat.com.br">Rocketseat <img src="https://rocketseat.com.br/favicon.ico" width="16px"/></a>
 
@@ -24,7 +26,7 @@ O dev.finances é uma aplicação de controle financeiro, onde é possível cada
 
 ---
 
-## Referências
+## 🌐 Referências
 
 <img src="https://maratonadiscover.rocketseat.com.br/_next/image?url=%2Fimages%2FillustrationOpportunities.png&w=1920&q=75" width="200px" align="right"/>
 
