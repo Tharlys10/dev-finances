@@ -10,9 +10,20 @@ Maratona Discover -
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML
-- CSS
-- JavaScript
+<a style="text-decoration: none;" href="https://www.w3schools.com/html/">
+  <img height="20" src="https://cdn0.iconfinder.com/data/icons/HTML5/512/HTML_Logo.png" alt="HTML"/>
+  ° HTML
+</a>
+<br />
+<a style="text-decoration: none;" href="https://www.w3schools.com/css/">
+  <img height="20" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-512.png" alt="CSS"/>
+  ° CSS
+</a>
+<br />
+<a style="text-decoration: none;" href="https://www.javascript.com/">
+  <img height="20" src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-javascript-software-develop-command-language-512.png" alt="JavaScript"/>
+  ° JavaScript
+</a>
 
 ---
 
