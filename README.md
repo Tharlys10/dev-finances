@@ -1,4 +1,6 @@
-# Dev-finance$
+<h1>
+  <img alt="dev.finances" title="dev.finances" src=".github/logo.svg" width="220px" />
+</h1>
 Maratona Discover -
 <a style="text-decoration: none;" href="https://rocketseat.com.br">Rocketseat <img src="https://rocketseat.com.br/favicon.ico" width="16px"/></a>
 
@@ -8,9 +10,20 @@ Maratona Discover -
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML
-- CSS
-- JavaScript
+<a style="text-decoration: none;" href="https://www.w3schools.com/html/">
+  <img height="20" src="https://cdn0.iconfinder.com/data/icons/HTML5/512/HTML_Logo.png" alt="HTML"/>
+  ° HTML
+</a>
+<br />
+<a style="text-decoration: none;" href="https://www.w3schools.com/css/">
+  <img height="20" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-512.png" alt="CSS"/>
+  ° CSS
+</a>
+<br />
+<a style="text-decoration: none;" href="https://www.javascript.com/">
+  <img height="20" src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-javascript-software-develop-command-language-512.png" alt="JavaScript"/>
+  ° JavaScript
+</a>
 
 ---
 
@@ -24,7 +37,7 @@ O dev.finances é uma aplicação de controle financeiro, onde é possível cada
 
 ---
 
-## Referências
+## 🌐 Referências
 
 <img src="https://maratonadiscover.rocketseat.com.br/_next/image?url=%2Fimages%2FillustrationOpportunities.png&w=1920&q=75" width="200px" align="right"/>
 
