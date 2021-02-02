@@ -3,9 +3,20 @@ Maratona Discover -
 <a style="text-decoration: none;" href="https://rocketseat.com.br">Rocketseat <img src="https://rocketseat.com.br/favicon.ico" width="16px"/></a>
 
 ---
-## Introdução
 
-A idéia do projeto é desenvolver um mini app financeiro. 
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- HTML
+- CSS
+- JavaScript
+
+---
+
+## 💻 Projeto
+
+O dev.finances é uma aplicação de controle financeiro, onde é possível cadastrar e excluir transações e ver o saldo de entrada e saída 💰
 
 ---
 
