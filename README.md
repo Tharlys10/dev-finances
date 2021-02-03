@@ -39,7 +39,7 @@ O dev.finances é uma aplicação de controle financeiro, onde é possível cada
 
 ## 🌐 Referências
 
-<img src=".github/FillustrationOpportunities.png&w=1920&q=75" width="200px" align="right"/>
+<img src=".github/illustrationOpportunities.png" width="200px" align="right"/>
 
 <p align="justify">
 <a style="text-decoration: none;" href="https://maratonadiscover.rocketseat.com.br/inscricao">Maratona Discover</a>
