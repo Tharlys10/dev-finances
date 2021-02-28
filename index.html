@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,13 +10,15 @@
   <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
+    rel="stylesheet">
   <!-- Style -->
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
   <header>
-    <!-- <h1 id="logo">Dev Finanças</h1> -->
     <img src="./assets/img/logo.svg" alt="Logo Dev Finance">
   </header>
 
@@ -28,7 +31,7 @@
           <span>Entradas</span>
           <img src="./assets/img/income.svg" alt="Img De Entradas">
         </h3>
-        <p>R$ 5.000,00</p>
+        <p id="income-display">R$ 0,00</p>
       </div>
 
       <div class="card">
@@ -37,7 +40,7 @@
           <img src="./assets/img/expense.svg" alt="Img De Saídas">
         </h3>
 
-        <p>R$ -2.000,00</p>
+        <p id="expense-display">R$ 0,00</p>
       </div>
 
       <div class="card total">
@@ -45,14 +48,14 @@
           <span>Total</span>
           <img src="./assets/img/total.svg" alt="Img De Total">
         </h3>
-        <p>R$ 3.000,00</p>
+        <p id="total-display">R$ 0,00</p>
       </div>
     </section>
 
     <section id="transaction">
       <h2 class="sr-only">Transações</h2>
 
-      <a href="#" class="button new">+ Nova transação</a>
+      <a href="#" class="button new" onclick="modal.open()">+ Nova transação</a>
 
       <table id="data-table">
         <thead>
@@ -61,32 +64,47 @@
           <th>Data</th>
           <th></th>
         </thead>
-        <tbody>
-          <tr>
-            <td class="description">Luz</td>
-            <td class="expense">R$ -499,00</td>
-            <td class="date">18/01/2021</td>
-            <td><img src="./assets/img/minus.svg" alt="Remover Transação"></td>
-          </tr>
-          <tr>
-            <td class="description">Web page</td>
-            <td class="income">R$ 4990,00</td>
-            <td class="date">18/01/2021</td>
-            <td><img src="./assets/img/minus.svg" alt="Remover Transação"></td>
-          </tr>
-          <tr>
-            <td class="description">Internet</td>
-            <td class="expense">R$ -200,00</td>
-            <td class="date">18/01/2021</td>
-            <td><img src="./assets/img/minus.svg" alt="Remover Transação"></td>
-          </tr>
-        </tbody>
+        <tbody></tbody>
       </table>
     </section>
-
-    <footer>
-      <p>&copy; 2021 - Dev Finanças</p>
-    </footer>
   </main>
+
+  <div class="modal-overlay">
+    <div class="modal">
+      <div id="form">
+        <h2>Nova Transação</h2>
+
+        <form action="" onsubmit="form.submit(event)">
+          <div class="input-group">
+            <label class="sr-only" for="description">Descrição</label>
+            <input id="description" name="description" type="text" placeholder="Descrição" />
+          </div>
+
+          <div class="input-group">
+            <label class="sr-only" for="amount">Valor</label>
+            <input id="amount" step="0.25" name="amount" type="text" placeholder="0,00" value="0,00" />
+            <small class="help">Use o sinal - (negativo) para despesas e , (vírgula) para casas decimais</small>
+          </div>
+
+          <div class="input-group">
+            <label class="sr-only" for="date">Data</label>
+            <input id="date" name="date" type="date" placeholder="DD/MM/YYYY" />
+          </div>
+
+          <div class="input-group actions">
+            <a href="#" class="button cancel" onclick="modal.close()">Cancelar</a>
+            <button type="submit">Salvar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2021 - Dev Finanças</p>
+  </footer>
+
+  <script src="/assets/js/script.js "></script>
 </body>
+
 </html>
