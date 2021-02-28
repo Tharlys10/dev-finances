@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +10,13 @@
   <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
+    rel="stylesheet">
   <!-- Style -->
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
   <header>
     <img src="./assets/img/logo.svg" alt="Logo Dev Finance">
@@ -51,7 +55,7 @@
     <section id="transaction">
       <h2 class="sr-only">Transações</h2>
 
-      <a href="#" class="button new">+ Nova transação</a>
+      <a href="#" class="button new" onclick="modal.open()">+ Nova transação</a>
 
       <table id="data-table">
         <thead>
@@ -84,7 +88,7 @@
     </section>
   </main>
 
-  <div class="modal-overlay active">
+  <div class="modal-overlay">
     <div class="modal">
       <div id="form">
         <h2>Nova Transação</h2>
@@ -107,7 +111,7 @@
           </div>
 
           <div class="input-group actions">
-            <a href="#" class="button cancel">Cancelar</a>
+            <a href="#" class="button cancel" onclick="modal.close()">Cancelar</a>
             <button type="submit">Salvar</button>
           </div>
         </form>
@@ -118,5 +122,24 @@
   <footer>
     <p>&copy; 2021 - Dev Finanças</p>
   </footer>
+
+  <script>
+    const modal = {
+      open() {
+        // add class action modal
+        document
+          .querySelector('.modal-overlay')
+          .classList.add('active');
+      },
+
+      close() {
+        // remove class action modal
+        document
+          .querySelector('.modal-overlay')
+          .classList.remove('active');
+      }
+    }
+  </script>
 </body>
+
 </html>

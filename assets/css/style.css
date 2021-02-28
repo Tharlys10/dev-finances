@@ -229,6 +229,8 @@ div.modal-overlay {
 
   opacity: 0;
   visibility: hidden;
+
+  z-index: 99;
 }
 
 div.modal-overlay.active {
